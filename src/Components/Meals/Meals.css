@@ -1,0 +1,18 @@
+.meals{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.meal-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 25px;
+  margin: 75px;
+}
+.meal-container img{
+  width: 280px;
+  height: 280px;
+  margin: 8px;
+}
+.order-history{
+  background: #ef9841;
+}
